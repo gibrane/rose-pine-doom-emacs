@@ -19,9 +19,9 @@
 ;;
 ;;; Code:
 
-(load! "doom-rose-pine-dawn-theme.el")
-(load! "doom-rose-pine-moon-theme.el")
-(load! "doom-rose-pine-theme.el")
+(load "doom-rose-pine-dawn-theme.el")
+(load "doom-rose-pine-moon-theme.el")
+(load "doom-rose-pine-theme.el")
 
 
 (provide 'rose-pine)
