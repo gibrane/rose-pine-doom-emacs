@@ -2,8 +2,8 @@
 ;;
 ;; Copyright (C) 2025 Gibran Essa
 ;;
-;; Author: Gibran Essa <gessa@gibran-dev.nvidia.com>
-;; Maintainer: Gibran Essa <gessa@gibran-dev.nvidia.com>
+;; Author: Gibran Essa <me@gib.cool>
+;; Maintainer: Gibran Essa <me@gib.cool>
 ;; Created: January 15, 2025
 ;; Modified: January 15, 2025
 ;; Version: 0.0.1
