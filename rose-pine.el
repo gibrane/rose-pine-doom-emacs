@@ -19,10 +19,16 @@
 ;;
 ;;; Code:
 
-(load "doom-rose-pine-dawn-theme.el")
-(load "doom-rose-pine-moon-theme.el")
-(load "doom-rose-pine-theme.el")
+;; (load "themes/doom-rose-pine-dawn-theme.el")
+;; (load "themes/doom-rose-pine-moon-theme.el")
+;; (load "themes/doom-rose-pine-theme.el")
 
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+               (let* ((base (file-name-directory load-file-name))
+                      (dir (expand-file-name "themes/" base)))
+                 (or (and (file-directory-p dir) dir)
+                     base))))
 
-(provide 'rose-pine)
+(Provide 'rose-pine)
 ;;; rose-pine.el ends here
