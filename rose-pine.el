@@ -30,5 +30,5 @@
                  (or (and (file-directory-p dir) dir)
                      base))))
 
-(Provide 'rose-pine)
+(provide 'rose-pine)
 ;;; rose-pine.el ends here
